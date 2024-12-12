@@ -28,7 +28,7 @@ const TradingView = () => {
         localStorage.getItem('tradingMaxInterval') || '',
     ); // Initialize from localStorage
     const [isTrading, setIsTrading] = useState<boolean>(() => {
-        alert("No Balance!")
+        
         const savedTradingStatus = localStorage.getItem('isTrading');
         return savedTradingStatus === 'true'; // Parse the string to boolean
     }); // Initialize from localStorage
