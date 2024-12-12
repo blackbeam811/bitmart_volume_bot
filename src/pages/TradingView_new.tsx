@@ -209,7 +209,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={AvaxFundAmount}
-                                        sx={{background: '#161622', color: "white", color: '#333'}}
+                                        sx={{background: '#161622', color: "white"}}
                                         onChange={(e) => setAvaxFundAmount(e.target.value)}
                                         required
                                     />
