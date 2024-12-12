@@ -124,7 +124,7 @@ const TradingView = () => {
                                         <strong>Wallet Counts:</strong>
                                     </label>
                                     <TextField
-                                        className='form-control w-full rounded-md bg-slate-200'
+                                        className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='number' // Integer type input
                                         value={walletCounts}
                                         sx={{background: '#161622', color: '#FFF'}}
@@ -137,10 +137,10 @@ const TradingView = () => {
                                         <strong>Max Gas:</strong>
                                     </label>
                                     <TextField
-                                        className='form-control w-full rounded-md bg-slate-200'
+                                        className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={maxGas}
-                                        sx={{background: '#161622'}}
+                                        sx={{background: '#161622', color: '#FFF'}}
                                         onChange={(e) => setMaxGas(e.target.value)}
                                         required
                                     />
@@ -152,7 +152,7 @@ const TradingView = () => {
                                         <strong>Min Amount:</strong>
                                     </label>
                                     <TextField
-                                        className='form-control w-full rounded-md bg-slate-200'
+                                        className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMintAmount}
                                         sx={{background: '#161622'}}
@@ -165,7 +165,7 @@ const TradingView = () => {
                                         <strong>Max Amount:</strong>
                                     </label>
                                     <TextField
-                                        className='form-control w-full rounded-md bg-slate-200'
+                                        className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMaxAmount}
                                         sx={{background: '#161622'}}
@@ -180,7 +180,7 @@ const TradingView = () => {
                                         <strong>Min Interval:</strong>
                                     </label>
                                     <TextField
-                                        className='form-control w-full rounded-md bg-slate-200'
+                                        className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMinInterval}
                                         sx={{background: '#161622'}}
@@ -193,7 +193,7 @@ const TradingView = () => {
                                         <strong>Max Interval:</strong>
                                     </label>
                                     <TextField
-                                        className='form-control w-full rounded-md bg-slate-200'
+                                        className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMaxInterval}
                                         sx={{background: '#161622'}}
@@ -206,7 +206,7 @@ const TradingView = () => {
                                         <strong>Fund Amount:</strong>
                                     </label>
                                     <TextField
-                                        className='form-control w-full rounded-md bg-slate-200'
+                                        className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={AvaxFundAmount}
                                         sx={{background: '#161622', color: '#333'}}
