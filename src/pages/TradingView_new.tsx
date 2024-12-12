@@ -104,17 +104,17 @@ const TradingView = () => {
     };
 
     return (
-        <div className='flex items-center justify-center h-full gap-40'>
+        <div className='flex items-center justify-center h-screen w-screen overflow-hidden gap-40'>
             {/* <div className='flex flex-col gap-10 items-center'>
                 <img src={NeuralAI}></img>
                 <span className='mainText'>Artificial Neural Network</span>
             </div> */}
-            <div className='bg-[#3c3f48] p-6 rounded-xl'>
+            <div className='bg-[#3c3f48] p-6 '>
                 <div className='text-[#c8c8d1] pb-6 text-2xl font-bold'>Liquidity Support</div>
                 <div className='flex flex-col px-4 w-full items-center rounded-xl bg-[#28292e]'>
                     <div className='mt-10 w-full max-w-6xl p-4'>
                         <form onSubmit={handleSubmit}>
-                            <div className='flex flex-col gap-6 max-4'>
+                            <div className='flex flex-col gap-4 max-4'>
                                 {/* First row: Wallet Address, Wallet Counts, Fund Amount */}
                                 <div className='flex items-center'>
                                     <label className='flex-shrink-0 text-[#adaeb3] min-w-32'>
