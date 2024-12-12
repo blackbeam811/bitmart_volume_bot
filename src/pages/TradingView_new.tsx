@@ -127,7 +127,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='number' // Integer type input
                                         value={walletCounts}
-                                        sx={{background: '#161622', color: '#FFF'}}
+                                        sx={{background: '#161622', color: "white"}}
                                         onChange={(e) => setWalletCounts(Number(e.target.value) || '')}
                                         required
                                     />
@@ -140,7 +140,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={maxGas}
-                                        sx={{background: '#161622', color: '#FFF'}}
+                                        sx={{background: '#161622', color: "white"}}
                                         onChange={(e) => setMaxGas(e.target.value)}
                                         required
                                     />
@@ -155,7 +155,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMintAmount}
-                                        sx={{background: '#161622'}}
+                                        sx={{background: '#161622', color: "white"}}
                                         onChange={(e) => setTradingMintAmount(e.target.value)}
                                         required
                                     />
@@ -168,7 +168,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMaxAmount}
-                                        sx={{background: '#161622'}}
+                                        sx={{background: '#161622', color: "white"}}
                                         onChange={(e) => setTradingMaxAmount(e.target.value)}
                                         required
                                     />
@@ -183,7 +183,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMinInterval}
-                                        sx={{background: '#161622'}}
+                                        sx={{background: '#161622', color: "white"}}
                                         onChange={(e) => setTradingMinInterval(e.target.value)}
                                         required
                                     />
@@ -196,7 +196,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={tradingMaxInterval}
-                                        sx={{background: '#161622'}}
+                                        sx={{background: '#161622', color: "white"}}
                                         onChange={(e) => setTradingMaxInterval(e.target.value)}
                                         required
                                     />
@@ -209,7 +209,7 @@ const TradingView = () => {
                                         className='form-control w-full rounded-md bg-slate-200 text-white'
                                         type='text' // Change to text input
                                         value={AvaxFundAmount}
-                                        sx={{background: '#161622', color: '#333'}}
+                                        sx={{background: '#161622', color: "white", color: '#333'}}
                                         onChange={(e) => setAvaxFundAmount(e.target.value)}
                                         required
                                     />
