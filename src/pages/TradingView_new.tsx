@@ -128,7 +128,7 @@ const TradingView = () => {
                                         type='number' // Integer type input
                                         value={walletCounts}
                                         inputProps={{  
-        style: { color: 'white' }, // Set the text color directly on input  
+        style: { color: 'white', background: '#161622' }, // Set the text color directly on input  
     }}  
                                         onChange={(e) => setWalletCounts(Number(e.target.value) || '')}
                                         required
@@ -143,7 +143,7 @@ const TradingView = () => {
                                         type='text' // Change to text input
                                         value={maxGas}
                                         inputProps={{  
-        style: { color: 'white' }, // Set the text color directly on input  
+        style: { color: 'white', background: '#161622' }, // Set the text color directly on input  
     }}  
                                         onChange={(e) => setMaxGas(e.target.value)}
                                         required
@@ -160,7 +160,7 @@ const TradingView = () => {
                                         type='text' // Change to text input
                                         value={tradingMintAmount}
                                         inputProps={{  
-        style: { color: 'white' }, // Set the text color directly on input  
+        style: { color: 'white', background: '#161622' }, // Set the text color directly on input  
     }}  
                                         onChange={(e) => setTradingMintAmount(e.target.value)}
                                         required
@@ -175,7 +175,7 @@ const TradingView = () => {
                                         type='text' // Change to text input
                                         value={tradingMaxAmount}
                                         inputProps={{  
-        style: { color: 'white' }, // Set the text color directly on input  
+        style: { color: 'white', background: '#161622' }, // Set the text color directly on input  
     }}  
                                         onChange={(e) => setTradingMaxAmount(e.target.value)}
                                         required
@@ -192,7 +192,7 @@ const TradingView = () => {
                                         type='text' // Change to text input
                                         value={tradingMinInterval}
                                         inputProps={{  
-        style: { color: 'white' }, // Set the text color directly on input  
+        style: { color: 'white', background: '#161622' }, // Set the text color directly on input  
     }}  
                                         onChange={(e) => setTradingMinInterval(e.target.value)}
                                         required
@@ -207,7 +207,7 @@ const TradingView = () => {
                                         type='text' // Change to text input
                                         value={tradingMaxInterval}
                                         inputProps={{  
-        style: { color: 'white' }, // Set the text color directly on input  
+        style: { color: 'white', background: '#161622' }, // Set the text color directly on input  
     }}  
                                         onChange={(e) => setTradingMaxInterval(e.target.value)}
                                         required
@@ -222,7 +222,7 @@ const TradingView = () => {
                                         type='text' // Change to text input
                                         value={AvaxFundAmount}
                                         inputProps={{  
-        style: { color: 'white' }, // Set the text color directly on input  
+        style: { color: 'white', background: '#161622' }, // Set the text color directly on input  
     }}  
                                         onChange={(e) => setAvaxFundAmount(e.target.value)}
                                         required
