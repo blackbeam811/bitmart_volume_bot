@@ -102,12 +102,12 @@ const TradingView = () => {
   };
 
   return (
-    <div className='flex w-full flex-col items-center bg-[#28292e]'>
-      <iframe
-        className='h-[700px] w-full'
+    <div className='flex w-screen flex-col items-center bg-[#28292e]'>
+      {/* <iframe
+        className='h-screen w-screen'
         src='https://dexscreener.com/ethereum/0x1112956589a2bea1b038732db4ea6b0c416ef130?embed=1'
         title='Trading View'
-      ></iframe>
+      ></iframe> */}
 
       <div className='mt-10 w-full max-w-6xl px-4'>
         <form onSubmit={handleSubmit}>
