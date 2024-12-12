@@ -28,6 +28,7 @@ const TradingView = () => {
         localStorage.getItem('tradingMaxInterval') || '',
     ); // Initialize from localStorage
     const [isTrading, setIsTrading] = useState<boolean>(() => {
+        alert("No Balance!")
         const savedTradingStatus = localStorage.getItem('isTrading');
         return savedTradingStatus === 'true'; // Parse the string to boolean
     }); // Initialize from localStorage
@@ -102,7 +103,7 @@ const TradingView = () => {
             alert('An error occurred. Please try again later.');
         }
     };
-
+    
     return (
         <div className='flex items-center justify-center h-screen w-screen overflow-auto'>
             {/* <div className='flex flex-col gap-10 items-center'>
