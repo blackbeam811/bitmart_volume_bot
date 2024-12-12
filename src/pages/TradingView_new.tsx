@@ -105,10 +105,10 @@ const TradingView = () => {
 
     return (
         <div className='flex items-center justify-center h-full gap-40'>
-            <div className='flex flex-col gap-10 items-center'>
+            {/* <div className='flex flex-col gap-10 items-center'>
                 <img src={NeuralAI}></img>
                 <span className='mainText'>Artificial Neural Network</span>
-            </div>
+            </div> */}
             <div className='bg-[#3c3f48] p-6 rounded-xl'>
                 <div className='text-[#c8c8d1] pb-6 text-2xl font-bold'>Liquidity Support</div>
                 <div className='flex flex-col px-4 w-full items-center rounded-xl bg-[#28292e]'>
