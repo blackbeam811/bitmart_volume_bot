@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import NeuralAI from '../neural.avif';
+// import NeuralAI from '../neural.avif';
 import axios from 'axios';
 import { TextField } from '@mui/material';
 
