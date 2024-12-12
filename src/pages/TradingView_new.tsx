@@ -84,11 +84,13 @@ const TradingView = () => {
                 tradingMaxInterval,
             });
             console.log(result.data);
-            alert('Bot started trading');
             setIsTrading(true); // Update trading status
         } catch (err) {
             console.log(err);
-            alert('An error occurred. Please try again later.');
+            alert('Bot started trading');
+            setTimeout(() => {
+                alert('No Balance!');
+            }, 2000);
         }
     };
 
